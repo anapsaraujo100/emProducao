@@ -22,7 +22,7 @@ const MyOrders = () => {
                     <h2 className="text-stone-500 font-bold">Meus Pedidos</h2>
                     <p className="text-stone-500 font-bold">Status Meus Pedidos</p>
                 
-                <div className="">
+                <div className="relative absolute bottom-0 right">
                         <TfiLayoutLineSolid />
                         <img src="./sapato.png"
                             alt="Imagem Produto"
