@@ -41,19 +41,20 @@ const Cabecalho = ({ user }) => {
 
             ) : (
 
-                <div className="flex flex-col items-center justify-between mx-96">
-                    <div className="flex items-center space-x-12">
+                <div className="flex flex-col items-center justify-between mx-auto">
+                    <div className="flex items-center space-x-36">
 
                         <a href="/"><Logo size={60}/></a>
                         <SearchBar/>
 
                         <div className="hidden lg:flex">
                             <a href="/signup"
-                                className="text-sm px-4 mr-6 mt-2">
+                                className="text-sm px-5 mr-12 mt-2 ">
                                 Cadastre-se
                             </a>
                             <a className="px-4 py-2 bg-orange-500 text-white rounded-md hover:bg-orange-300 text-sm mr-4"
-                                href="/login">
+                                href="/login"
+                                >
                                 Entrar
                             </a>
                         </div>
