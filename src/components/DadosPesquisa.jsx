@@ -2,7 +2,7 @@ import {blusa, blusa2, calca, relogio, relogio2, sapato} from "./Assets/index.js
 
 export const produtos = [
     {
-        nome: 'Blusa Raglan Branca', 
+        nome: 'Blusa Raglan', 
         id: 1, 
         categoria: 'Blusa',
         src: blusa,
@@ -10,7 +10,7 @@ export const produtos = [
     },
 
     {
-        nome: 'Calça Brim Azul Royal', 
+        nome: 'Calça Brim Azul ', 
         id: 2,
         categoria: 'Calça', 
         src:calca,
@@ -41,11 +41,4 @@ export const produtos = [
         valor: "75,00"
     },
 
-    {
-        nome: 'Relógio Adidas', 
-        id: 6,
-        categoria: 'Relogio',
-        src:relogio2,
-        valor: "180,00"
-    },
 ]

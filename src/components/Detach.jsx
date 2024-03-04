@@ -3,22 +3,16 @@ import { produtos } from "./DadosPesquisa";
 
 const Detach = () => {
   return (
-    <>
-      <span className="text-blue-900 text-base font-bold ml-4 ">Destaques</span>
-      <ul>
-        <li className=" grid grid-cols-6 grid-rows-1 gap-4">
+    <div className="w-[87vw] min-w-[30vw] ml-16 mr-16 ">
+      <span className="text-blue-900 text-lg font-bold w-[87vw] min-w-[116vw] ml-12 mr-16 ">Destaques</span>
+      <section className=" flex flex-wrap">
+     
           {produtos.map((produto) => (
             <ProductCard key={produto.id} produto={produto} />
           ))}
-        </li>
-
-        <li className=" grid grid-cols-6 grid-rows-1 gap-4">
-          {produtos.map((produto) => (
-            <ProductCard key={produto.id} produto={produto} />
-          ))}
-        </li>
-      </ul>
-    </>
+      
+      </section>
+    </div>
   );
 };
 

@@ -13,6 +13,7 @@ const SearchBar = () => {
     setProdutosPesquisados(resultadoPesquisado);
   };
 
+
   return (
     <div className="flex relative items-center justify-between">
       <input
@@ -25,8 +26,7 @@ const SearchBar = () => {
         <Detach 
             key={index} 
             produtos={produto} 
-            className=""
-        
+           
         />
       ))}
       <img

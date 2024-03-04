@@ -2,6 +2,7 @@ import Cabecalho from "../components/Cabecalho"
 import Footer from "../components/Footer"
 import ProductCard from "../components/ProductCard"
 import NavCategorias from "../components/NavCategorias"
+import { produtos } from "../components/DadosPesquisa"
 
 const Products = () => {
 
@@ -15,28 +16,28 @@ const Products = () => {
 
                 <ul className=" grid grid-cols-4">
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos} />
                     </li>
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos}/>
                     </li>
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos} />
                     </li>
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos}/>
                     </li>
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos} />
                     </li>
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos} />
                     </li>
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos}/>
                     </li>
                     <li>
-                        <ProductCard />
+                        <ProductCard produto={produtos}/>
                     </li>
 
                 </ul>
