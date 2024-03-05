@@ -1,43 +1,43 @@
-import Cabecalho from "../components/Cabecalho"
+import Header from "../components/Header"
 import Footer from "../components/Footer"
 import ProductCard from "../components/ProductCard"
 import NavCategorias from "../components/NavCategorias"
-import { produtos } from "../components/DadosPesquisa"
+import { ProductContext } from "../context/ProductContext"
 
-const Products = () => {
+const ProductsId = () => {
 
     return (
 
         <div >
 
-            <Cabecalho />
+            <Header />
             <div className="flex">
                 <NavCategorias />
 
                 <ul className=" grid grid-cols-4">
                     <li>
-                        <ProductCard produto={produtos} />
+                        <ProductCard produto={ProductContext} />
                     </li>
                     <li>
-                        <ProductCard produto={produtos}/>
+                        <ProductCard produto={ProductContext}/>
                     </li>
                     <li>
-                        <ProductCard produto={produtos} />
+                        <ProductCard produto={ProductContext} />
                     </li>
                     <li>
-                        <ProductCard produto={produtos}/>
+                        <ProductCard produto={ProductContext}/>
                     </li>
                     <li>
-                        <ProductCard produto={produtos} />
+                        <ProductCard produto={ProductContext} />
                     </li>
                     <li>
-                        <ProductCard produto={produtos} />
+                        <ProductCard produto={ProductContext} />
                     </li>
                     <li>
-                        <ProductCard produto={produtos}/>
+                        <ProductCard produto={ProductContext}/>
                     </li>
                     <li>
-                        <ProductCard produto={produtos}/>
+                        <ProductCard produto={ProductContext}/>
                     </li>
 
                 </ul>
@@ -50,4 +50,4 @@ const Products = () => {
 
 }
 
-export default Products
+export default ProductsId

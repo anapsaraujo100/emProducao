@@ -1,14 +1,11 @@
-import Header from "../components/Header"
-import Cabecalho from "../components/Cabecalho"
-import Footer from "../components/Footer"
-import Detach  from "../components/Detach"
+import { Header,Promotion, Detach, Footer } from "../components/index.js"
 
 const Home = () => {
 
     return (
         <div className="flex flex-col items-center ">
-            <Cabecalho/>
             <Header/>
+            <Promotion/>
             <Detach />
             <Footer/>
         </div>

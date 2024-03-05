@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import {logo} from "../Assets/index.js"
 
 const Logo = ({ size }) => {
 
@@ -9,7 +10,7 @@ const Logo = ({ size }) => {
             to="/"
             style={{ display: "block" }} >
 
-            <img src="logo.png"
+            <img src={logo}
                 alt="Logo Ecommerce"
                 width={size} />
         </Link>

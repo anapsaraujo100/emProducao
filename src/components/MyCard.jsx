@@ -24,7 +24,7 @@ const MyCard = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default MyCard;
+export default MyCard

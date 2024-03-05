@@ -10,6 +10,7 @@ import MyOrders from './pages/MyOrders'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Cart from './pages/Cart'
+import ProductsId from './pages/Products'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/produtos" element={<Products />} />
         <Route path="/categorias" element={<Categorias />} />
         <Route path="/pedidos" element={<MyOrders />} />
+        <Route path="/produtos/:id" element={<ProductsId />} />
         <Route path="/login" element={<Login />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/Cart" element={<Cart />} />

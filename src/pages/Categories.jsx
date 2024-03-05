@@ -1,6 +1,5 @@
-import Cabecalho from "../components/Cabecalho"
+import Header from "../components/Header"
 import Footer from "../components/Footer"
-import ProductCardRe from "../components/ProductCardRe"
 import ProductCardsap from "../components/ProductCardsap"
 
 
@@ -10,24 +9,7 @@ const Categorias = () => {
 
         <div >
            
-            <Cabecalho/>
-
-            <div className="flex items-center mx-auto ext-sm lg:flex-grow justify-center lg:justify-start lg:flex-col lg:items-center">
-                <ul className=" grid grid-cols-4 ">
-                    <li>
-                        <ProductCardRe/>
-                    </li>
-                    <li>
-                        <ProductCardRe/>
-                    </li>
-                    <li>
-                        <ProductCardRe/>
-                    </li>
-                    <li>
-                        <ProductCardRe/>
-                    </li>
-                </ul>
-            </div>
+            <Header/>
 
             <div className="flex items-center mx-auto ext-sm lg:flex-grow justify-center lg:justify-start lg:flex-col lg:items-center">
                 <ul className=" grid grid-cols-4 ">
@@ -42,23 +24,6 @@ const Categorias = () => {
                     </li>
                     <li>
                         <ProductCardsap/>
-                    </li>
-                </ul>
-            </div>
-
-            <div className="flex items-center mx-auto ext-sm lg:flex-grow justify-center lg:justify-start lg:flex-col lg:items-center">
-                <ul className=" grid grid-cols-4 ">
-                    <li>
-                        <ProductCardRe/>
-                    </li>
-                    <li>
-                        <ProductCardRe/>
-                    </li>
-                    <li>
-                        <ProductCardRe/>
-                    </li>
-                    <li>
-                        <ProductCardRe/>
                     </li>
                 </ul>
             </div>

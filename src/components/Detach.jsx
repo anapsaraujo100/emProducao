@@ -1,5 +1,5 @@
-import ProductCard from "./ProductCard";
-import { produtos } from "./DadosPesquisa";
+import ProductCard from "./ProductCard"
+import { produtos } from "./DadosPesquisa"
 
 const Detach = () => {
   return (
@@ -13,7 +13,7 @@ const Detach = () => {
       
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Detach;
+export default Detach
