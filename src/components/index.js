@@ -7,7 +7,7 @@ import Promotion from "./Promotion.jsx"
 import Informacoes from "./Informacoes.jsx"
 import Logo from "./Logo.jsx"
 import LocationFooter from "./LocationFooter.jsx"
-import MYCard from "./MyCard.jsx"
+import MyCard from "./MyCard.jsx"
 import NavBar from "./Navbar.jsx"
 import NavCategorias from "./NavCategorias.jsx"
 import NavMenu from "./NavMenu.jsx"
@@ -23,7 +23,8 @@ import Cart from "./Cart.jsx"
 import Botoes from "./Botoes.jsx"
 
 
-export {Header, Detach, Footer, Forms, FormsLogin, Promotion, Informacoes, Logo, MYCard, 
+
+export {Header, Detach, Footer, Forms, FormsLogin, Promotion, Informacoes, Logo, MyCard, 
     NavBar, NavCategorias, NavMenu, ProductCard, ProductCardsap, SearchBar, 
     ShoppCart, LocationFooter, LogoFooter, RightInformation, LeftInformation, InputSearch,
-    Cart, Botoes,}
+    Cart, Botoes, }

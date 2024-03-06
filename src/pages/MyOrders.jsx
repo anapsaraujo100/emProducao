@@ -1,15 +1,12 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-import Informacoes from "../components/Informacoes"
-import MyCard from "../components/MyCard"
+import { Header, Footer } from "../components"
+import Order from "../components/Order.jsx"
 
 const MyOrders = () => {
   return (
     <>
       <Header />
       <div className="flex">
-        <Informacoes />
-        <MyCard />
+        <Order/>
       </div>
 
       <Footer />
